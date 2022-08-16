@@ -1,4 +1,4 @@
-from nearestneighbour import knn_regressor as knr
-from nearestneighbour import knn_classifier as knc
+from nearestneighbour.knn_regressor import knn_regressor
+from nearestneighbour.knn_classifier import knn_classifier
 
 

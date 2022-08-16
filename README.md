@@ -14,15 +14,15 @@ Initial setup
 
 To use
 ~~~Python3
-from nearestneighbour import knn_classifier
-from nearestneighbour import knn_regressor
+from nearestneighbour.knn_regressor import knn_regressor
+from nearestneighbour.knn_classifier import knn_classifier
 
 knn = knn_classifier/knn_regressor(n_neighbors=3)
 knn.fit(X, y)
 knn.predict(X)
 knn.score(X,y)
 ~~~
-More detailed information in docstrings in modules.
+More detailed information in docstrings in package modules.
 See demo.py for a working example.
 
 ## License  
